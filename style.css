@@ -21,10 +21,24 @@ h2{
     padding-bottom:5vh;
 }
 
+h2.pubtitr{
+
+    text-align:center;
+    margin-top:3vh;
+    margin-bottom:3vh;
+    padding-bottom:3vh;
+
+}
+
 h3{
     text-align:left;
     margin-left:15vw;
     
+}
+
+h3.cent{
+    text-align: center;
+    margin-left:0;
 }
 
 p{
@@ -41,7 +55,7 @@ p{
     padding-top:5vh;
 }
 
-.prof, .equipe, .equipement, .num, .localisation, .mail{
+.prof, .equipe, .equipement, .num, .localisation, .mail, .cadence{
     background-color: rgba(128, 128, 128, 0.5);
     border: 3vw white;
     border-radius: 5vw;
@@ -49,7 +63,7 @@ p{
     padding-bottom:2vh;
 }
 
-#contact{
+#contact {
 
     background-image: url(img/back3.jpg);
     background-repeat: no-repeat;
@@ -59,6 +73,18 @@ p{
     padding-top:5vh;
 
 
+
+}
+
+
+.even{
+
+    background-image: url(img/back3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    height: 130vh;
+    padding-top:5vh;
 
 }
 
@@ -83,4 +109,16 @@ p{
 #chessboard{
     text-align: center;
     padding-top:5vh;
+}
+
+.prix, .adhesion, .commodite{
+
+    background-color: rgba(128, 128, 128, 0.5);
+    border: 3vw white;
+    border-radius: 5vw;
+    margin:2vh;
+    padding-bottom:1vh;
+    padding-top:1vh;
+
+
 }
