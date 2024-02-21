@@ -1,0 +1,15 @@
+.Screen1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-image: url(img/back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    color:white;
+}
