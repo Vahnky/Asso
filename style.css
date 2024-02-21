@@ -13,3 +13,35 @@ h1 {
     font-size: xx-large;
     color:white;
 }
+
+h2{
+    text-align:center;
+    margin-top:5vh;
+    margin-bottom:5vh;
+    padding-bottom:5vh;
+}
+
+h3{
+    text-align:left;
+    margin-left:15vw;
+    
+}
+
+p{
+    margin-left:5vw;
+}
+
+#NotreClub{
+    background-image: url(img/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    height: 100vh;
+    padding-top:5vh;
+}
+
+.prof, .equipe, .equipement{
+    background-color: rgba(128, 128, 128, 0.5);
+    border: 3vw white;
+    border-radius: 5vw;
+}
