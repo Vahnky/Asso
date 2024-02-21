@@ -95,6 +95,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top:1vh;
 
 }
 
@@ -129,9 +130,16 @@ button{
     text-align: center;
 }
 
-img{width:20vw;
+img.photo{width:70px;
+    height:auto;
 margin-left:5vw;
 margin-top:2vw;}
+
+img.pendule{
+    width:80px;
+    height:auto;
+    object-fit: contain;
+}
 
 .fex{
     display: flex;
@@ -140,4 +148,15 @@ margin-top:2vw;}
 
 p.top{
     padding-top:2vw;
+}
+
+h3.right{
+    margin:0;
+    padding:2vw;
+    text-align: center;
+}
+.cadence{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
