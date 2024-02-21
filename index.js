@@ -14,15 +14,11 @@ function getChessboardWidth() {
     else if (screenWidth>600 && screenWidth<=800){
         return  600;
     }
-    else if (screenWidth>800 && screenWidth<=1000){
-        return 800;
+    else {
+        return 700;
     }
-    else if (screenWidth>1000 && screenWidth<=1200){
-        return 1000;
-    }
-    else{
-        return 1200;
-    }
+   
+    
 }
 
 

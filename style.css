@@ -19,6 +19,7 @@ h2{
     margin-top:5vh;
     margin-bottom:5vh;
     padding-bottom:5vh;
+    text-decoration: underline;
 }
 
 h2.pubtitr{
@@ -33,6 +34,8 @@ h2.pubtitr{
 h3{
     text-align:left;
     margin-left:15vw;
+    text-decoration: underline;
+    padding-top:3vh;
     
 }
 
@@ -83,7 +86,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     color:white;
-    height: 130vh;
+    height: 165vh;
     padding-top:5vh;
 
 }
@@ -121,4 +124,20 @@ p{
     padding-top:1vh;
 
 
+}
+button{
+    text-align: center;
+}
+
+img{width:20vw;
+margin-left:5vw;
+margin-top:2vw;}
+
+.fex{
+    display: flex;
+    flex-direction: row;
+}
+
+p.top{
+    padding-top:2vw;
 }
