@@ -29,6 +29,7 @@ h3{
 
 p{
     margin-left:5vw;
+    color:white;
 }
 
 #NotreClub{
@@ -40,8 +41,40 @@ p{
     padding-top:5vh;
 }
 
-.prof, .equipe, .equipement{
+.prof, .equipe, .equipement, .num, .localisation, .mail{
     background-color: rgba(128, 128, 128, 0.5);
     border: 3vw white;
     border-radius: 5vw;
+    margin:2vh;
+    padding-bottom:2vh;
 }
+
+#contact{
+
+    background-image: url(img/back3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    height: 100vh;
+    padding-top:5vh;
+
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-decoration: underline;
+
+}
+
