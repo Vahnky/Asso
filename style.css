@@ -32,7 +32,7 @@ p{
     color:white;
 }
 
-#NotreClub{
+#NotreClub, #play{
     background-image: url(img/back2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,3 +78,9 @@ p{
 
 }
 
+
+
+#chessboard{
+    text-align: center;
+    padding-top:5vh;
+}
