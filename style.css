@@ -185,6 +185,14 @@ img.pendule{
     flex-direction: row;
 }
 
+.fex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
 p.top{
     padding-top:2vw;
 }
@@ -248,6 +256,9 @@ img.troph{
 
 .trop{
     display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
 img.troph{
@@ -260,9 +271,7 @@ img.troph{
 img.troph {
     width:200px;
     height:auto; 
-    position:absolute;
-    bottom:32vh;
-    right:8vw;
+
 
 }
 
@@ -284,15 +293,39 @@ iframe{
 
 @media screen and (min-width: 950px){
 
-    img.troph {
-        width:300px;
+img.troph{
+    width:300px;
+}
 
-        bottom:40vh;
 
-        right:5vw;
+
+
+}
+
+
+
+@media screen and (min-width: 1300px){
+
+    .grandformat {
+
+        height: 10vw;
     
+        margin-top: 0vh;
+        
     }
 
 
+    iframe{
+        width:80vw;
+        height:20vw;
+    }
+
+    .even{
+        height:200vh;
+    }
+
+    .container{
+        padding-top:0;
+    }
 
 }
