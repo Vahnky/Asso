@@ -171,7 +171,8 @@ button{
 img.photo{width:70px;
     height:auto;
 margin-left:5vw;
-margin-top:2vw;}
+margin-top:2vw;
+border-radius: 50px;}
 
 img.pendule{
     width:80px;
@@ -197,4 +198,101 @@ h3.right{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+img.Photosalle{display:none;}
+
+.grandformat{
+    display:none;
+}
+
+.trop{
+    display:none;
+}
+
+img.troph{
+    display:none;
+}
+
+
+@media screen and (min-width: 500px){
+
+
+
+    img.Photosalle{
+        display: flex;
+        max-width: 100%;
+
+
+        
+        
+
+    }
+
+
+    .grandformat {
+        display:flex;
+        height: 20vw;
+        overflow: hidden; 
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+        
+    }
+
+
+}
+
+@media screen and (min-width: 700px){
+
+
+.trop{
+    display:flex;
+}
+
+img.troph{
+    display:flex;
+}
+
+
+
+
+img.troph {
+    width:200px;
+    height:auto; 
+    position:absolute;
+    bottom:32vh;
+    right:8vw;
+
+}
+
+iframe{
+    width:80vw;
+    height:50vw;
+}
+
+
+#NotreClub, #contact{
+
+    height:100vh;
+} 
+
+
+}
+
+
+
+@media screen and (min-width: 950px){
+
+    img.troph {
+        width:300px;
+
+        bottom:40vh;
+
+        right:5vw;
+    
+    }
+
+
+
 }
