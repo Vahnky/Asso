@@ -80,6 +80,10 @@ footer {
     color: #000;
   }
 
+#bas{
+    margin-top:25px;
+}
+
 #Play{
     background-image: url(img/back2.jpg);
     background-repeat: no-repeat;
