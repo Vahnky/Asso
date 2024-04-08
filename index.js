@@ -7,7 +7,7 @@ var options = {
 function getChessboardWidth() {
     var screenWidth = window.innerWidth;
     if (screenWidth <= 600) {
-        return 320;
+        return 350;
     } 
     else if (screenWidth>600 && screenWidth<=800){
         return  600;
